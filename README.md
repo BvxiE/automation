@@ -52,9 +52,5 @@ pytest --alluredir=report
 allure serve report
 ```
 ## 输出目录
-- log/        运行日志（不上传 GitHub）
-- report/     测试报告（不上传 GitHub）
-## 注意事项
-1. 请勿上传敏感信息（如账号、密码）
-2. log、report 为本地运行文件，已加入 .gitignore
-3. 配置文件请根据自己设备信息修改
+- log/        运行日志（未上传 GitHub）
+- report/     测试报告（未上传 GitHub）
